@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Para ocultar a extensão .php de arquivos específicos
+RewriteRule ^index$ index.php [L]
+RewriteRule ^agenda$ agenda.php [L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^dashboard$ dashboard.php [L]
