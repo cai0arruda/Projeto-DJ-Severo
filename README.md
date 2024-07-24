@@ -10,32 +10,6 @@ Breve descrição do projeto.
 
 ## 🚀 Instalação
 
-### 💻 Localmente
-
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/your-repo-name/project.git
-    cd project
-    ```
-2. Instale as dependências do Composer:
-    ```bash
-    composer install
-    ```
-3. Configure o arquivo `.env`:
-    ```bash
-    cp .env.example .env
-    ```
-    Edite o arquivo `.env` com suas configurações de banco de dados e outras variáveis de ambiente.
-4. Gere a chave da aplicação (se necessário):
-    ```bash
-    php artisan key:generate
-    ```
-5. Inicie o servidor local:
-    ```bash
-    php -S localhost:8000 -t public
-    ```
-6. Acesse a aplicação em [http://localhost:8000](http://localhost:8000).
-
 ### 🐋 Docker Setup
 
 Este projeto usa Docker para simplificar o processo de configuração e implantação. Siga os passos abaixo para começar:
@@ -48,7 +22,7 @@ Certifique-se de ter o [Docker](https://www.docker.com/products/docker-desktop) 
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/your-repo-name/project.git
+    git clone https://github.com/cai0arruda/Projeto-DJ-Severo.git
     cd project
     ```
 2. Crie um arquivo `.env` no diretório raiz com o seguinte conteúdo:
@@ -75,9 +49,3 @@ Certifique-se de ter o [Docker](https://www.docker.com/products/docker-desktop) 
 
 2. Acesse a aplicação:
     Abra seu navegador e vá para [http://localhost](http://localhost) para acessar a aplicação.
-
-#### ⏹ Stopping the Container
-
-Para parar o contêiner, primeiro encontre o ID do contêiner usando:
-```bash
-docker ps
