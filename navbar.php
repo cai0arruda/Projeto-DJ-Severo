@@ -5,14 +5,14 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div>
-      <a class="nav-brand" href="index.php">
+      <a class="nav-brand" href="index">
         <img class="logo" src="assets/img/severo.png">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="navbarsExample08">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-home" href="agenda.php">AGENDA</a>
+          <a class="nav-home" href="agenda">AGENDA</a>
         </li>
         <li class="nav-item">
           <a class="nav-home" href="https://api.whatsapp.com/send/?phone=555197845665&text&app_absent=0"
@@ -43,7 +43,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-home2" href="dashboard.php"><img src="assets/img/admin.png" class="adminico"></a>
+          <a class="nav-home2" href="dashboard"><img src="assets/img/admin.png" class="adminico"></a>
         </li>
       </ul>
     </div>
