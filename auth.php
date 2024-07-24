@@ -28,9 +28,9 @@ try {
 
     if ($user) {
         $_SESSION['username'] = $user['username'];
-        header("Location: dashboard.php");
+        header("Location: dashboard");
     } else {
-        header("Location: login.php?error=1");
+        header("Location: login?error=1");
     }
 } catch (PDOException $e) {
     echo "Erro ao inserir dados: " . $e->getMessage();
